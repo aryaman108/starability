@@ -1,0 +1,29 @@
+@import '../variables';
+@import '../starability-base';
+@import '../starability-result';
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.starability-pulse {
+  @include starability-base;
+
+  @if ($hover-enabled) {
+    > input:not([disabled]):hover + label {
+      animation: pulse 0.6s ease-in-out;
+    }
+
+    > input:not([disabled]):hover ~ label {
+      animation: pulse 0.6s ease-in-out;
+    }
+  }
+}

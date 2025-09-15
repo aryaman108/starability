@@ -86,15 +86,22 @@ If you have a different file structure, remember to update file path for CSS sty
 
 For now you can choose one of the animations listed below. Go to the [demo](http://lunarlogic.github.io/starability/) to see how they look.
 
-  - starability-basic
-  - starability-slot
-  - starability-grow
-  - starability-growRotate
-  - starability-fade
-  - starability-checkmark
-  - starability-heart
-  - starability-heartbeat
-  - starability-coinFlip (by [Paulina Materna](https://github.com/paulinamaterna))
+   - starability-basic
+   - starability-slot
+   - starability-grow
+   - starability-growRotate
+   - starability-fade
+   - starability-checkmark
+   - starability-heart
+   - starability-heartbeat
+   - starability-coinFlip (by [Paulina Materna](https://github.com/paulinamaterna))
+   - starability-glow (scale and glow effect on hover)
+   - starability-pulse (pulsing animation on hover)
+
+## Additional Features
+
+- **Tooltips**: Add `data-tooltip` attribute to labels for hover and focus tooltips.
+- **Enhanced Accessibility**: Improved focus styles and tooltips for keyboard users.
 
 ## Supported browsers
 
